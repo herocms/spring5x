@@ -274,7 +274,7 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
-            <version>5.1.2</version>
+            <version>5.3.1</version>
         </dependency>
 
         <!--@Data 是lombok 包下的注解，用来生成相应的 set、get 方法，使得类的书写更为简洁 -->
