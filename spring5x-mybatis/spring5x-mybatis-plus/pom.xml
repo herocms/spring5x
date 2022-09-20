@@ -263,7 +263,7 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
-            <version>5.1.2</version>
+            <version>5.3.1</version>
         </dependency>
 
         <!--实体类使用@Data 省略get/set/tostring方法-->
