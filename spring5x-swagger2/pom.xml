@@ -17,7 +17,7 @@
         <!--项目多环境配置-->
         <profiles.dir>src/main/profiles</profiles.dir>
         <!--spring5.x 至少需要jdk1.8及以上版本-->
-        <spring.version>5.0.9.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
         <!--jdk必须 >=1.8-->
         <jdk.version>1.8</jdk.version>
         <!--maven 版本-->
@@ -28,7 +28,7 @@
         <servlet.version>4.0.1</servlet.version>
 
         <!--spring5.x集成swagger2-->
-        <springfox.version>2.9.2</springfox.version>
+        <springfox.version>2.10.0</springfox.version>
     </properties>
 
     <dependencies>
@@ -108,7 +108,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.10.1</version>
+            <version>2.13.4</version>
             <exclusions>
                 <exclusion>
                     <artifactId>jackson-annotations</artifactId>
