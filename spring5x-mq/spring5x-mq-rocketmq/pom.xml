@@ -17,7 +17,7 @@
     <!--说明：spring5.x-base模块是spring5.x基础框架，其它模块都是以此模块为基础扩展的-->
     <properties>
         <!--spring5.x 至少需要jdk1.8及以上版本-->
-        <spring.version>5.0.9.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
         <!--jdk必须 >=1.8-->
         <jdk.version>1.8</jdk.version>
         <!--maven 版本-->
@@ -112,7 +112,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.10.1</version>
+            <version>2.13.4</version>
             <exclusions>
                 <exclusion>
                     <artifactId>jackson-annotations</artifactId>
@@ -178,7 +178,7 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
+            <version>2.10.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>jackson-annotations</artifactId>
@@ -205,14 +205,14 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <version>2.10.0</version>
         </dependency>
 
         <!--RocketMQ 消息中间价-->
         <dependency>
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
-            <version>4.2.0</version>
+            <version>4.9.1</version>
         </dependency>
 
     </dependencies>
