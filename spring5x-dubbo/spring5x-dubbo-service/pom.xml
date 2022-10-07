@@ -17,7 +17,7 @@
     <!--说明：spring5.x-base模块是spring5.x基础框架，其它模块都是以此模块为基础扩展的-->
     <properties>
         <!--spring5.x 至少需要jdk1.8及以上版本-->
-        <spring.version>5.0.9.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
         <!--jdk必须 >=1.8-->
         <jdk.version>1.8</jdk.version>
         <!--maven 版本-->
@@ -28,10 +28,10 @@
         <servlet.version>4.0.1</servlet.version>
 
         <!--spring5.x集成swagger2-->
-        <springfox.version>2.9.2</springfox.version>
+        <springfox.version>2.10.0</springfox.version>
 
         <!--log4j日志-->
-        <logback.version>1.1.9</logback.version>
+        <logback.version>1.2.7</logback.version>
         <slf4j.version>1.7.22</slf4j.version>
         <log4jdbc.version>1.2</log4jdbc.version>
     </properties>
@@ -120,7 +120,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.10.1</version>
+            <version>2.13.4</version>
             <exclusions>
                 <exclusion>
                     <artifactId>jackson-annotations</artifactId>
@@ -230,7 +230,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.13</version>
+            <version>8.0.29</version>
         </dependency>
         <!--oracle 连接驱动-->
         <dependency>
@@ -255,7 +255,7 @@
         <dependency>
             <groupId>com.mchange</groupId>
             <artifactId>c3p0</artifactId>
-            <version>0.9.5.2</version>
+            <version>0.9.5.4</version>
         </dependency>
 
 
@@ -268,13 +268,13 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.5.2</version>
+            <version>3.5.6</version>
         </dependency>
         <!--Mybatis-PageHelper分页插件:目前支持Oracle,Mysql,MariaDB,SQLite,Hsqldb,PostgreSQL等等常用数据库分页-->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
-            <version>5.1.2</version>
+            <version>5.3.1</version>
         </dependency>
 
         <!--@Data 是lombok 包下的注解，用来生成相应的 set、get 方法，使得类的书写更为简洁 -->
@@ -293,7 +293,7 @@
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
-            <version>4.0.0</version>
+            <version>4.2.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.zookeeper</groupId>
@@ -304,7 +304,7 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-            <version>3.4.13</version>
+            <version>3.4.14</version>
         </dependency>
 
         <!-- POJO之间映射工具类dozer -->
