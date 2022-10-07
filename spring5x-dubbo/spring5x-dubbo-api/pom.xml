@@ -29,7 +29,7 @@
         <servlet.version>4.0.1</servlet.version>
 
         <!--spring5.x集成swagger2-->
-        <springfox.version>2.9.2</springfox.version>
+        <springfox.version>2.10.0</springfox.version>
     </properties>
 
     <dependencies>
@@ -95,7 +95,7 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
-            <version>5.1.2</version>
+            <version>5.3.1</version>
         </dependency>
     </dependencies>
 
