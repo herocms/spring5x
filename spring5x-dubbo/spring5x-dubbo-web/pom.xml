@@ -219,7 +219,7 @@
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
-            <version>4.0.0</version>
+            <version>5.4.0</version>
             <!--默认是最新的3.5.x版本-->
             <exclusions>
                 <exclusion>
