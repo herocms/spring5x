@@ -138,7 +138,7 @@
         <dependency>
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit</artifactId>
-            <version>2.1.10.RELEASE</version>
+            <version>2.4.17</version>
         </dependency>
         <!--rabbitmq 传输对象序列化依赖了这个包-->
         <!--<dependency>
